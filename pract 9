@@ -1,3 +1,46 @@
+ZAD2 NE E GOTOVA:
+const int MAX_SIZE = 50;
+
+int strlen(char myStr[MAX_SIZE], int &strLen)
+{
+	for (int i = 0; myStr[i] != '\0'; i++)
+	{
+		strLen += 1;
+	}
+
+	return strLen;
+}
+
+void newStr(char myStr[MAX_SIZE], int strLen)
+{
+	char* newStr = new char[strLen + 1];
+	int i = 0;
+	for ( ; i < strLen; )
+	{
+		if (myStr[i] >= 'A' && myStr[i] <= 'Z')
+		{
+			newStr[i]
+		}
+	}
+	newStr[i] = '\0';
+	std::cout << newStr;
+}
+
+int main() 
+{
+	char myStr[MAX_SIZE];
+	std::cout << "please, insert the string. ";
+	std::cin.getline(myStr, MAX_SIZE);
+	int strLen = 0;
+
+	std::cout << "this is the size of the string: " << strlen(myStr, strLen) << std::endl;
+
+}
+
+
+
+
+
 ZAD 1::  
 
 const int MAX_SIZE = 50;
