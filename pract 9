@@ -81,3 +81,54 @@ int main()
 	newStr(myStr, strLen);
 
 }
+
+
+// ZAD 4!!!
+//
+// int main()
+// {
+//     int n;
+//     std::cin >> n;
+//     int m;
+//     std::cin >> m;
+//
+//     int** matrix1 = new int*[n];
+//     for (int i = 0; i < n; i++)
+//     {
+//         matrix1[i] = new int[m];
+//         for (int j = 0; j < m; j++)
+//         {
+//             std::cin >> matrix1[i][j];
+//         }
+//     }
+//
+//     int** matrix2 = new int*[n];
+//     for (int i = 0; i < n; i++)
+//     {
+//         matrix2[i] = new int[m];
+//         for (int j = 0; j < m; j++)
+//         {
+//             std::cin >> matrix2[i][j];
+//         }
+//     }
+//
+// bool same = true;
+// for (int i = 0; i < n; i++)
+// {
+//     for (int j = 0; j < m; j++)
+//     {
+//         if (matrix1[i][j] != matrix2[i][j])
+//         {
+//             same = false;
+//         }
+//     }
+// }
+//
+//     std::cout << same;
+// }
+
+
+
+// zad 5
+
+
